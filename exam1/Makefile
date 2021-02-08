@@ -3,14 +3,14 @@
 ########################################################################
 
 # Compiler settings - Can be customized.
-CC = g++
-CXXFLAGS = -std=c++11 -Wall -g
+CC = gcc
+CXXFLAGS = -std=c11 -Wall -g
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = lab1
-EXT = .cpp
-SRCDIR = /home/christian/EE312H/lab1
+APPNAME = exam1
+EXT = .c
+SRCDIR = /home/christian/EE312H/exam1
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############

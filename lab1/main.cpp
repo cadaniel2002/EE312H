@@ -36,7 +36,7 @@ void readFile(const char file_name[], char buffer[]) {
 void simpleTest(void) {
     printf("******* Starting Base Test #1 (simpleTest) *******\n");
     char superstrings[] = "bulldogx\nbulldog\nbulldo\nulldog\nxbullxdogxx\nbulsdf\nabuxllORdoxgM\nulld";
-    char strings[] = "bulldog bulld";
+    char strings[] = {"bulldog bulld"};
     printSuperStrings(strings, superstrings); // should print: don
     printf("****DONE****\n");
 }
